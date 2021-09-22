@@ -8,10 +8,6 @@ shader simpleFilename(
     string FileName5 = "",
     string FileName6 = "",
     string FileName7 = "",
-    string FileName8 = "",
-    string FileName9 = "",
-    string FileName10 = "",
-    string FileName11 = "",
     output string oFileName = "<undefined>"
     ) 
 {
@@ -31,12 +27,4 @@ else if (index == 6)
 	oFileName=FileName6;
 else if (index == 7)
 	oFileName=FileName7;
-else if (index == 8)
-	oFileName=FileName8;
-else if (index == 9)
-	oFileName=FileName9;
-else if (index == 10)
-	oFileName=FileName10;
-else
-	oFileName=FileName11;
 }
